@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login page</title>
+	<link rel="stylesheet" href="style1.css">
+	<style>
+	body{
+	  font-family:Arial, Helvetica, sans-serift;
+	  background: -webkit-linear-gradient(to right, #155799, #159957);
+	  background: linear-gradient(to right, #155799, #159957);
+	  color: whitesmoke
+	  
+	  }
+	  h1{
+	    text-align: center;
+	  }
+	  form{
+	    width: 35rem;
+	    margin: auto;
+	    color: whitesmoke;
+	    backdrop-filter: blur(16px) saturate(180%);
+	    -webkit-backdrop-filter: blur(16px) saturate(180%);
+	    background-color: rgba(11,15,13,0.582);
+	    border-radius: 8px;
+	    border: 1px solid rgba(255,255,255,0.125);
+	  }
+	  input[type=text], input[type=password]{
+	    width: 100%;
+	    margin:10px 0;
+	    border-radius: 5px;
+	    padding:15px 18px;
+	    box-sizing:border-box;
+	  }
+	  #sub{
+	    background-color: #030804;
+	    color: white;
+	    padding: 14px 20px;
+	    margin:7px 0;
+	    width: 100%;
+	    font-size: 18px;
+	  }
+	  #sub:hover{
+	    opacity: 0.6;
+	    cursor:pointer;
+	  }
+	  .headingscontainer{
+	    text-align: center;
+	  }
+	  .maincontainer{
+	    padding:16px;
+	  }
+	 .subcontainer{
+	   display: flex;
+	   flex-direction: row;
+	   align-items:center;
+	   justify-content:space-between;
+	 }
+	 .subcontainer a{
+	   font-size: 16px;
+	   margin-bottom:12px;
+	 }
+	 span.forgotp{
+	   float: right;
+	   color:whitesmoke;
+	   padding:16px;
+	 }
+	 .forgotp a{
+	   color: rgb(74, 146, 235);
+	 }
+	 .forgotp a:link{
+	   text-decoration: none;
+	 }
+	 .register{
+	   color: white;
+	   text-align: center;
+	 }
+	 .register a{
+	   color: rgb(74,146,235);
+	 }
+	 .register a:link{
+	   text-decoration: none;
+	 }
+	 @media screen and (max-width:600px){
+	   form{
+	     width: 25rem;
+	   }
+	 }
+	 @media screen and (max-width: 400px){
+	   form{
+	     width: 20rem;
+	   }
+	 }
+
+	</style>
+</head>
+<body>
+  
+	
+	<h1><i>Login Form</i><form action="" method="post"></form></h1>
+  
+   <form action="">
+    
+      <div class="headingscontainer">
+        <h3>Sign in</h3>
+        <p>Sign in with your username and password</p>
+        </div>
+        <div class="maincontainer">
+      Username :<br>
+      <input type="text" placeholder="User name"><br>
+      password :<br>
+      <input type="password" placeholder="password"><br>
+      <br>
+    <div class="subcontainer">
+    <label>
+      <input type="checkbox" checked="checked" name="Remember">Remember me
+    </lable>
+      <p class="forgotp"><a href="#">Forgot password?</a></p>
+      </div>
+      
+     <input id="sub" type="button" value="Login" onclick="location.href = 'Index.html';"> >login <br>
+     <br>
+    <p class="register">Not a member? <a href="Index.html">Register here</a></p>
+    </div>
+    </form>
+   
+  
+
+ 
+</body>
+</html>

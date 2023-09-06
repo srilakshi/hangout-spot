@@ -13,6 +13,10 @@
   font-family: "Poppins", sans-serif;
 
 }
+/* body{
+  background-image: url("homepage.JPG");
+  background-size: cover;
+  /* background-repeat: no; */
 
 
 
@@ -37,6 +41,8 @@ header{
   padding: 12px 20px;
 
   transition: 0.5s ease;
+  
+ o
 
 }
 
@@ -139,6 +145,12 @@ section{
   flex-direction: column;
 
   background: #2696E9;
+
+  background-image: url("homepage.JPG");
+
+  background-repeat: no-repeat;
+
+  background-size: 100%;
 
 }
 
@@ -273,7 +285,7 @@ section{
 
   font-size: 1.6em;
 
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 
 }
 
